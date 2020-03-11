@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Whitney';
+    src: local('Whitney-Book'),
+        url('Whitney.woff2') format('woff2'),
+        url('Whitney.woff') format('woff'),
+        url('Whitney.ttf') format('truetype'),
+        url('Whitney.svg#Whitney-Book') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

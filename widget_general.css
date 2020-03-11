@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+html,body {
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#server_name {
+    height: 48px;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    padding:0 16px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: table;
+    width: 100%;
+}
+#server_name h3 {
+    vertical-align: middle;
+    display: table-cell;
+    font-weight: 600;
+    font-size: 16px;
+}
+#server_userlist {
+    height: 100%;
+    padding: 47px 0 49px 0;
+    box-sizing: border-box;
+}
+#server_userlist .container {
+    border-left: 0;
+    border-right: 0;
+    height: 100%;
+    overflow: auto;
+}
+#server_join {
+    height: 48px;
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0 16px;
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+}
+#server_join .cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+#join_button {
+    float:right;
+    text-align:center;
+    background: #7289da;
+    border-radius: 3px;
+    width: 100%;
+    height: 40px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    display: table;
+    -webkit-transition: background-color .17s ease,color .17s ease;
+    transition: background-color .17s ease,color .17s ease;
+}
+#join_button:hover {
+    background: #677BC4;
+}
+#join_button:active {
+    background: #5B6EAE;
+}
+#join_text {
+    vertical-align: middle;
+    display: table-cell;
+}
+.discord_userlist {
+	padding: 8px 0;
+	list-style-type: none;
+	margin: 0 8px;
+}
+.discord_user {
+    padding: 1px 8px;
+    display: table;
+    box-sizing: border-box;
+    width: 100%;
+    height: 42px;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    border-radius: 4px;
+}
+.discord_user > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.discord_avatar {
+	border-radius: 100%;
+	width: 32px;
+	height: 32px;
+	border: solid 0 transparent;
+	margin-right: 12px;
+	vertical-align: middle
+}
+.discord_status {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+    background-color: #f04747;
+    background-clip: content-box;
+	border-radius: 50%;
+	top: 24px;
+	left: 27px
+}
+.discord_online {
+	background-color: #43b581
+}
+.discord_idle {
+	background-color: #faa61a
+}
+.username {
+    width: 100%;
+    line-height: 20px;
+	font-weight: 600;
+	max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
